@@ -18,19 +18,15 @@ El proyecto fue desarrollado utilizando Python y sus principales librerías para
 ## Estructura del proyecto
 Análisis-Exploratorio-Datos
 
-**00_Agregar_Errores**
-  Generación de datos con errores simulados
+**00_Agregar_Errores:** Generación de datos con errores simulados
 
-**01_Limpieza_de_datos**
-  Corrección de valores inconsistentes, tratamiento de datos faltantes y valores atípicos
+**01_Limpieza_de_datos:** Corrección de valores inconsistentes, tratamiento de datos faltantes y valores atípicos
 
-**02_Analisis_exploratorio_EDA**
-  Análisis estadístico, visualizaciones y búsqueda de relaciones entre variables
+**02_Analisis_exploratorio_EDA:** Análisis estadístico, visualizaciones y búsqueda de relaciones entre variables
 
-**03_Modelo_predictivo**
-  Entrenamiento y evaluación de modelos de aprendizaje automático
+**03_Modelo_predictivo:** Entrenamiento y evaluación de modelos de aprendizaje automático
 
-**04_**
+**04_:** 
 
 ## Dataset
 El conjunto de datos contiene información relacionada con el uso y rendimiento de baterías. Este dataset fue extraído de: https://www.kaggle.com/datasets/dharmendrapandit12/laptop-battery-health-dataset
