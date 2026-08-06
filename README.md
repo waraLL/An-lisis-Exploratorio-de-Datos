@@ -9,11 +9,11 @@ El objetivo principal es demostrar las etapas fundamentales de un proyecto de ci
 El proyecto fue desarrollado utilizando Python y sus principales librerías para análisis de datos, visualización y modelado.
 
 ## Objetivos
-  - Aplicar técnicas de limpieza y preparación de datos.
-  - Identificar y corregir valores inconsistentes.
-  - Analizar patrones y relaciones entre variables.
-  - Realizar visualizaciones para comprender el comportamiento de los datos.
-  - Construir un modelo predictivo basado en las características de la batería.
+  - Aplicar técnicas de limpieza y preparación de datos
+  - Identificar y corregir valores inconsistentes
+  - Analizar patrones y relaciones entre variables
+  - Realizar visualizaciones para comprender el comportamiento de los datos
+  - Construir un modelo predictivo basado en las características de la batería
 
 ## Estructura del proyecto
 Análisis-Exploratorio-Datos
@@ -29,6 +29,8 @@ Análisis-Exploratorio-Datos
 
 03_Modelo_predictivo
   Entrenamiento y evaluación de modelos de aprendizaje automático
+
+04_
 
 ## Dataset
 El conjunto de datos contiene información relacionada con el uso y rendimiento de baterías. Este dataset fue extraído de: https://www.kaggle.com/datasets/dharmendrapandit12/laptop-battery-health-dataset
@@ -81,7 +83,7 @@ Se desarrollará un modelo de aprendizaje automático para predecir la salud de 
 
 ## Estado del proyecto
 
-🚧 Proyecto en desarrollo................
+🚧 Proyecto en desarrollo................🚧
 
 Actualmente se encuentran completadas las etapas de generación de errores, limpieza de datos y análisis exploratorio.
 
