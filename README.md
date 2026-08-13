@@ -40,6 +40,7 @@ Principales variables:
   - Temperatura promedio
   - Capacidad de carga completa
   - Salud de batería
+
 Este dataset lleva por nombre: battery_health_dataset.csv
 
 ## Herramientas utilizadas
