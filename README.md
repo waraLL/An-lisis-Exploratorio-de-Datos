@@ -4,7 +4,7 @@
 
 Este proyecto presenta un flujo completo de análisis y procesamiento de datos aplicado a un conjunto de datos de baterías.
 
-El objetivo principal es demostrar las etapas fundamentales de un proyecto de ciencia de datos: generación de datos con errores, limpieza, análisis exploratorio (EDA) y construcción de un modelo predictivo para estimar el estado de salud de una batería.
+Su función principal es demostrar las etapas fundamentales de un proyecto de ciencia de datos: generación de datos con errores, limpieza, análisis exploratorio (EDA), construcción de un modelo predictivo para estimar el estado de salud de una batería y la elaboración de un dashboard para visualizar de forma práctica la información que se tenia.
 
 El proyecto fue desarrollado utilizando Python y sus principales librerías para análisis de datos, visualización y modelado.
 
@@ -14,18 +14,17 @@ El proyecto fue desarrollado utilizando Python y sus principales librerías para
   - Analizar patrones y relaciones entre variables
   - Realizar visualizaciones para comprender el comportamiento de los datos
   - Construir un modelo predictivo basado en las características de la batería
-
-El proyecto también incorpora un dashboard interactivo desarrollado con Plotly y Streamlit para facilitar la exploración de los resultados.
+  - Elaborar un dashboard para facilitar la exploración de los resultados
 
 ## Etapas del proyecto
 
 El proyecto se desarrolló en diferentes etapas:
 
-1. **Generación de errores:** incorporación de valores inconsistentes para simular problemas presentes en datos reales.
-2. **Limpieza de datos:** detección y tratamiento de valores nulos, datos inconsistentes y valores atípicos.
-3. **Análisis exploratorio:** análisis estadístico y visualización de las principales variables.
+1. **Generación de errores:** incorporación de valores inconsistentes para simular problemas presentes en datos reales
+2. **Limpieza de datos:** detección y tratamiento de valores nulos, datos inconsistentes y valores atípicos
+3. **Análisis exploratorio:** análisis estadístico y visualización de las principales variables
 4. **Modelo predictivo:** comparación de diferentes modelos para estimar la salud de la batería
-5. **Dashboard interactivo:** desarrollo de una aplicación con Streamlit y Plotly para explorar los resultados.
+5. **Dashboard interactivo:** desarrollo de una aplicación con Streamlit y Plotly para explorar los resultados
 
 ## Dataset
 El conjunto de datos contiene información relacionada con el uso y rendimiento de baterías. Este dataset fue extraído de: https://www.kaggle.com/datasets/dharmendrapandit12/laptop-battery-health-dataset
@@ -65,13 +64,8 @@ Principales variables:
 
 ## Principales hallazgos
 
-Durante el análisis exploratorio se observaron relaciones importantes
-entre la salud de la batería y variables relacionadas con su antigüedad
-y uso.
-
-Las variables que mostraron una mayor relación con `Salud_Bateria`
-fueron:
-
+Durante el análisis exploratorio se observaron relaciones importantes entre la salud de la batería y variables relacionadas con su antigüedad y uso.
+Las variables que mostrron una mayor relación con `Salud_Bateria` fueron:
 - `Ciclos_Carga`
 - `Edad_Bateria`
 - `Capacidad_Carga_Completa`
