@@ -15,18 +15,17 @@ El proyecto fue desarrollado utilizando Python y sus principales librerías para
   - Realizar visualizaciones para comprender el comportamiento de los datos
   - Construir un modelo predictivo basado en las características de la batería
 
-## Estructura del proyecto
-Análisis-Exploratorio-Datos
+El proyecto también incorpora un dashboard interactivo desarrollado con Plotly y Streamlit para facilitar la exploración de los resultados.
 
-**00_Agregar_Errores:** Generación de datos con errores simulados
+## Etapas del proyecto
 
-**01_Limpieza_de_datos:** Corrección de valores inconsistentes, tratamiento de datos faltantes y valores atípicos
+El proyecto se desarrolló en diferentes etapas:
 
-**02_Analisis_exploratorio_EDA:** Análisis estadístico, visualizaciones y búsqueda de relaciones entre variables
-
-**03_Modelo_predictivo:** Entrenamiento y evaluación de modelos de aprendizaje automático
-
-**04_:** 
+1. **Generación de errores:** incorporación de valores inconsistentes para simular problemas presentes en datos reales.
+2. **Limpieza de datos:** detección y tratamiento de valores nulos, datos inconsistentes y valores atípicos.
+3. **Análisis exploratorio:** análisis estadístico y visualización de las principales variables.
+4. **Modelo predictivo:** comparación de diferentes modelos para estimar la salud de la batería
+5. **Dashboard interactivo:** desarrollo de una aplicación con Streamlit y Plotly para explorar los resultados.
 
 ## Dataset
 El conjunto de datos contiene información relacionada con el uso y rendimiento de baterías. Este dataset fue extraído de: https://www.kaggle.com/datasets/dharmendrapandit12/laptop-battery-health-dataset
@@ -44,45 +43,40 @@ Principales variables:
   - Salud de batería
 
 ## Herramientas utilizadas
-  - Python
-  - Pandas
-  - NumPy
-  - Matplotlib
-  - Seaborn
-  - Scikit-learn
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Plotly
+- Scikit-learn
+- Streamlit
+- Jupyter Notebook
 
-## Flujo del proyecto
+## Notebooks
 
-### 00 - Agregar errores
-Se generaron datos con problemas simulados para representar un escenario real donde los datos pueden contener:
-  - Valores faltantes
-  - Valores fuera de rango
-  - Datos inconsistentes
+| Notebook | Descripción |
+|---|---|
+| `00_Agregar_Errores.ipynb` | Generación de errores e inconsistencias en los datos |
+| `01_Limpieza_de_datos.ipynb` | Limpieza, corrección e imputación de datos |
+| `02_Analisis_exploratorio_EDA.ipynb` | Estadística descriptiva y análisis visual |
+| `03_Modelo_predictivo.ipynb` | Entrenamiento y comparación de modelos predictivos |
+| `04_Dashboard_y_Visualizacion.ipynb` | Visualizaciones interactivas con Plotly |
 
-### 01 - Limpieza de datos
-Se aplicaron técnicas de:
-  - Revisión de tipos de datos
-  - Identificación de valores nulos
-  - Corrección de datos inválidos
-  - Tratamiento de valores atípicos
-  - Imputación de datos faltantes
-    
-### 02 - Análisis Exploratorio (EDA)
-Se realizó:
-  - Estadística descriptiva
-  - Distribución de variables
-  - Análisis de correlación
-  - Visualización mediante gráficos
+## Principales hallazgos
 
-### 03 - Modelo predictivo
-Se desarrollará un modelo de aprendizaje automático para predecir la salud de la batería utilizando las variables disponibles.
+Durante el análisis exploratorio se observaron relaciones importantes
+entre la salud de la batería y variables relacionadas con su antigüedad
+y uso.
 
-## Estado del proyecto
+Las variables que mostraron una mayor relación con `Salud_Bateria`
+fueron:
 
-🚧 Proyecto en desarrollo................🚧
+- `Ciclos_Carga`
+- `Edad_Bateria`
+- `Capacidad_Carga_Completa`
 
-Actualmente se encuentran completadas las etapas de generación de errores, limpieza de datos y análisis exploratorio.
-
+El análisis también permitió identificar valores faltantes, valores atípicos e inconsistencias que fueron tratados durante la etapa de limpieza.
 
 ## Autor
 *Ing. Wara López L.*
