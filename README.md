@@ -53,6 +53,17 @@ Este dataset lleva por nombre: battery_health_dataset.csv
 - Streamlit
 - Jupyter Notebook
 
+## Dashboard interactivo
+
+El proyecto incluye un dashboard desarrollado con Streamlit y Plotly que permite explorar de forma interactiva la información de las baterías. Entre las funcionalidades se incluyen:
+- Indicadores principales
+- Distribución de la salud de las baterías
+- Relación entre edad y salud
+- Relación entre ciclos de carga y salud
+- Capacidad retenida
+- Clasificación de baterías según su nivel de salud
+- Filtros interactivos
+
 ## Notebooks
 
 | Notebook | Descripción |
